@@ -47,7 +47,3 @@ observer.observe(CerealsValueSpan, {
     childList: true,
     characterData: true
 });
-
-Game.tooltip.draw(this, function () {
-    return Game.ObjectsById[5].minigame.officeTooltip()();
-}, 'this');
